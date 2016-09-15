@@ -1,3 +1,5 @@
+"use strict"
+
 var fs = require('fs')
 
 fs.open('db/students.db', 'wx', function (err, fd) {
@@ -5,4 +7,3 @@ fs.open('db/students.db', 'wx', function (err, fd) {
     // console.error("Ooopps, something happen! ", err)
   })
 })
-
